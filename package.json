@@ -1,0 +1,25 @@
+{
+  "name": "ctm-utility",
+  "version": "1.0.0",
+  "description": "ctm-untility package using s3 and mongodb",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "s3",
+    "mongodb",
+    "base"
+  ],
+  "author": "CmTLibrary",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.540.0",
+    "bytenode": "^1.5.7",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "bytenode": "^1.5.7"
+  }
+}
